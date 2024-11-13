@@ -1,0 +1,29 @@
+{
+    "name": "hn/smart-consult",
+    "type": "typo3-cms-extension",
+    "description": "Beratungstool",
+    "authors": [
+        {
+            "name": "Tyrone Sekyere",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^12"
+    },
+    "license": "MIT",
+    "keywords": [
+        "typo3",
+        "site package"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hn\\SmartConsult\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "smart_consult"
+        }
+    }
+}
