@@ -1,5 +1,5 @@
 {
-    "name": "hn/smart-consult",
+    "name": "tyroneasante/smart-consult",
     "type": "typo3-cms-extension",
     "description": "Beratungstool",
     "authors": [
@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Hn\\SmartConsult\\": "Classes/"
+            "Tyroneasante\\SmartConsult\\": "Classes/"
         }
     },
     "extra": {
