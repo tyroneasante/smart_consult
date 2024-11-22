@@ -1,0 +1,38 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:rx="http://typo3.org/ns/Reelworx/RxShariff/ViewHelper"
+      data-namespace-typo3-fluid="true">
+
+<div class="smart-consult">
+    <div class="background"></div>
+    <f:if condition="{settings.header}">
+        <div class="header">{settings.header}</div>
+    </f:if>
+
+    <div class="quiz-container">
+
+        <div class="question">{settings.initialText}</div>
+        <div class="answers">
+        </div>
+
+        <div class="control-buttons">
+            <button class="button start">
+                Starten
+            </button>
+
+            <button class="button back hide">
+                Zurück
+            </button>
+
+            <button class="button reset hide">
+                Neu Starten
+            </button>
+        </div>
+    </div>
+
+    <span data-questions="{questions -> f:format.json()}"></span>
+    <span data-answers="{transitions -> f:format.json()}"></span>
+    <span data-initial-text="{initialText -> f:format.json()}"></span>
+    <span data-first-question="{initial -> f:format.json()}"></span>
+</div>
+
+</html>

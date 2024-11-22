@@ -1,5 +1,5 @@
 {
-    "name": "tyroneasante/smart-consult",
+    "name": "tyrone/smart-consult",
     "type": "typo3-cms-extension",
     "description": "Beratungstool",
     "authors": [
@@ -10,7 +10,8 @@
     ],
     "require": {
         "php": ">=8.2",
-        "typo3/cms-core": "^12"
+        "typo3/cms-core": "^12",
+        "nemo64/typo3api": "^3.0"
     },
     "license": "MIT",
     "keywords": [
@@ -19,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Tyroneasante\\SmartConsult\\": "Classes/"
+            "Tyrone\\SmartConsult\\": "Classes/"
         }
     },
     "extra": {

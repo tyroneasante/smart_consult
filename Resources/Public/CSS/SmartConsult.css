@@ -1,0 +1,84 @@
+.smart-consult {
+    padding: 40px 0;
+}
+
+.header {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.quiz-container {
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
+.question {
+    margin-bottom: 15px;
+}
+.answers {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.control-buttons {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.button {
+    flex: 1;
+    background: #444cf7;
+    border: none;
+    color: #fff;
+    padding: 7px 0;
+}
+
+.back,
+.reset {
+    background: #fff;
+    color: #444cf7;
+    border: 1px solid #444cf7;
+}
+
+.back:hover,
+.reset:hover {
+    background: rgba(0,0,0,0.1);
+}
+.transition {
+
+}
+
+.background {
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#444cf7 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #444cf7 2px, #e5e5f7 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+
+
+.hide {
+    display: none;
+}
+

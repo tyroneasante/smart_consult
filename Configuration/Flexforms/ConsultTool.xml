@@ -1,0 +1,43 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <sheetTitle>
+                    sheet title
+                </sheetTitle>
+                <type>array</type>
+                <el>
+
+                    <settings.header>
+                        <label>
+                            Überschrift
+                        </label>
+                        <config>
+                            <type>input</type>
+                        </config>
+                    </settings.header>
+
+                    <settings.initialText>
+                        <label>
+                            Start-Text
+                        </label>
+                        <config>
+                            <type>input</type>
+                        </config>
+                    </settings.initialText>
+
+                    <settings.transitions>
+                        <label>
+                            Antworten / Übergänge
+                        </label>
+                        <config>
+                            <type>inline</type>
+                            <foreign_table>tx_smartconsult_consulttool_transitions</foreign_table>
+                            <foreign_field>parent_uid</foreign_field>
+                        </config>
+                    </settings.transitions>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

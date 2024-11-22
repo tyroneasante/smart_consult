@@ -1,0 +1,7 @@
+page.includeJSFooter {
+    smartconsult = EXT:smart_consult/Resources/Public/JavaScript/SmartConsult.js
+}
+
+page.includeCSS {
+    smartconsult = EXT:smart_consult/Resources/Public/CSS/SmartConsult.css
+}
